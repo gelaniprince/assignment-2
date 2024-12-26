@@ -8,7 +8,7 @@ void main()
     scanf("%s", x);
 
     for (end = 0; x[end] != '\0'; end++)
-        ;
+        
     end--;
 
     for (start = 0; start < end; start++, end--)
